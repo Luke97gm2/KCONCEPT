@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+}
+.h3{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.write-up{
+    margin-left: 100px;
+    width: 40%;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.people-involved{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+    text-align: center;
+    padding: 25px;
+}
+.write-up2{
+    width: 40%;
+    margin: 0 auto;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    font-size: 30px;
+}
+.client-image img{
+    width: 100px;
+}
+.services{
+    text-align: center;
+    margin: 50px 0;
+}
+.services h3{
+    line-height: 50px;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+.client{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    width: 95%;
+    margin: 0 auto;
+}
+.client li{
+    list-style: circle;
+    padding: 5px;
+}
+@media (max-width: 700px) {
+    .h3{
+        margin-left: 0px;
+    }
+    .write-up{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .write-up2{
+        width: 100%;
+    }
+    .people-involved{
+        width: 100%;
+    }
+    .client{
+        width: 100%;
+        flex-direction: column;
+    }
+    .services{
+        text-align: left;
+    }
+    .br{
+        display: none;
+    }
+}

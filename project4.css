@@ -1,0 +1,102 @@
+
+.parallax{
+    background-image: url(jon-tyson-uCPDcHRXYkw-unsplash.jpg);
+    min-height: 650px;
+    filter: grayscale(100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4{
+    font-family: 'Rampart One', cursive;
+    font-size: 100px;
+}
+.project-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    width: 30vw;
+    height: 600px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+img:hover{
+    filter: none;
+}
+.context{
+    margin: 100px 0;
+    text-align: center;
+}
+.context p{
+    display: block;
+    width: 20%;
+    float: right;
+    margin-right: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+}
+.p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    display: inline;
+    position: sticky;
+    top: 120px;
+}
+a button{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: large;
+    cursor: pointer;
+}
+a{
+    display: block;
+    text-decoration: none;
+    align-self: flex-end;
+}
+.project-display p{
+    background-color: black;
+    padding: 10px;
+    width: 200px;
+    font-size: large;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: block;
+}
+@media (max-width: 900px) {
+    .parallax{
+        background-attachment: scroll;
+    }
+    h4{
+        font-size: 50px;
+        margin-top: -50px;
+    }
+    .context p{
+        width: 100%;
+        float: none;
+    }
+    .p{
+        display: none;
+    }
+    img{
+        width: 90vw;
+        height: 400px;
+    }
+    .logo img{
+        margin-top: 35px;
+    }
+}
